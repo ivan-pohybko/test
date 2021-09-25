@@ -1,6 +1,7 @@
 export function main(): void {
   feature2()
   console.log('MAIN')
+  console.log('hotfix')
   feature1()
 }
 
