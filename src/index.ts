@@ -3,6 +3,7 @@ export function main(): void {
   console.log('MAIN')
   console.log('hotfix')
   feature1()
+  feature3()
 }
 
 function feature1(): void {
@@ -11,4 +12,9 @@ function feature1(): void {
 
 function feature2(): void {
   console.log('some calculations for feature2')
+}
+
+
+function feature3(): void {
+  console.log('some actions for feature3')
 }
